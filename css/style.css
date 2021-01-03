@@ -1,0 +1,113 @@
+/* some global css */
+.para{
+    font-size: large;
+    letter-spacing: 0.1rem;
+    color: white;
+}
+/* end global css  */
+body{
+    font-family: "Robot,cursive";
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.header-area .navbar-brand img{
+    width: 100px;
+    height: auto;
+}
+
+.header-area .main-menu .navbar-nav a{
+    color: white;
+    font-size: 1.2rem;
+    margin-left: 0.8rem;
+    text-transform: uppercase;
+}
+.header-area .main-menu .navbar-nav a:hover{
+    color: rgb(48, 197, 244);
+    transition: 0.3s ease-in-out;
+}
+.header-area .main-menu .navbar-nav .active a{
+    color:rgb(48, 197, 244);
+}
+.main-menu .navbar{
+    background-color: rgb(6, 29, 37);
+}
+.heading{
+    margin-bottom: 0px;
+}
+.main-area button{
+    border: 2px solid rgb(48, 197, 244);
+    border-radius: 8px;
+}
+.main-area button a{
+    color: rgb(48, 197, 244);
+}
+.main-area button a:hover{
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.main-area{
+    background-color: rgb(6, 29, 37);
+}
+.main-area .title .heading-1, .display-2{
+    color: rgb(48, 197, 244);
+}
+.main-area .title .intro{
+    color: white;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.main-area button a{
+    text-decoration: none;
+    letter-spacing: 1.5px;
+}
+.service-area{
+    margin: 4rem 0rem;
+}
+.service-area .headings{
+    color:  rgb(6, 29, 37);
+}
+.service-area .custom-card{
+    background-color:rgb(6, 29, 37);
+}
+.custom-card .card-title{
+    color: white;
+    letter-spacing: 0.1rem;
+    padding: 5px 0px;
+}
+.service-area .custom-card .icons{
+    color:  rgb(48, 197, 244);
+}
+.navbar-light .navbar-toggler-icon{
+    color: white;
+}
+.custom-card{
+    background-color: rgb(6, 29, 37);
+    padding: 10px 0px;
+}
+.custom-card .card-body .para{
+    padding: 20px;
+}
+.about-area{
+    background-color:  rgb(6, 29, 37);
+    color: white;
+}
+.about-area .about-me{
+    letter-spacing: 2px;
+}
+.about-area .introduction{
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.tech-area .carousel .technologies{
+    background-color:  rgb(6, 29, 37);
+    padding: 15px 5px;
+    color: white;
+    margin: 10px;
+}
+.tech-area .carousel .technologies .tech-about p{
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+}
+/* font from fonts.css */
+@import url(fonts.css)
